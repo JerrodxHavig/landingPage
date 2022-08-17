@@ -6,12 +6,59 @@ body {
     font-family: 'roboto';
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container div {
+    flex: 1 1 auto;
+    border: 4px solid brown;
+    height: 80px;
+}
+
+.nav {
+    background-color: #1F2937;
+}
+
 #header-logo {
     font-size: 24px;
     color: #F9FAF8;
 }
 
-.flex-container {
-    display: flex;
+.hero {
     background-color: #1F2937;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-style: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.info {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote span {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+}
+
+#btn-footer {
+    background-color: #3882F6;
 }
