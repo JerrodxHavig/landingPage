@@ -7,16 +7,3 @@
 body {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
 }
-
-.flex-container {
-    display: flex;
-    background-color: #f4f4f4;
-}
-
-.item {
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    background: blue;
-    color: #fff;
-}
