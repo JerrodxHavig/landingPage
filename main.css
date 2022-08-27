@@ -6,7 +6,6 @@
 
 body {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
-    font-size: 16px;
     line-height: 1.5;
     color: #333;
 }
@@ -124,4 +123,22 @@ h1, h2 {
     background-color: #3882F6;
     color: #E5E7EB;
     padding: 4px;
+}
+
+.quote {
+    display: flex;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+}
+
+.quotes p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.call {
+    display: flex;
 }
