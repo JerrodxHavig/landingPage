@@ -102,6 +102,7 @@ h1, h2 {
 .boxes .container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .boxes .info {
@@ -129,7 +130,7 @@ h1, h2 {
 
 /* quote container */
 .quote {
-    display: flex;
+    padding: 40px;
 }
 
 .quotes {
@@ -144,15 +145,23 @@ h1, h2 {
 
 .call {
     margin: 100px;
+    padding: 40px;
     background-color: #3882F6;
     border-radius: 8px;
-    display: flex;
+}
+
+.call h1 {
+    color: #F9FAF8;
+}
+
+.call p {
+    color: #E5E7EB;
 }
 
 /* style call to action button */
 .callBtn {
     background-color: #3882F6;
-    border: #E5E7EB solid;
+    border: #E5E7EB 2px solid;
     border-radius: 10px;
     color: #E5E7EB;
     padding: 4px;
