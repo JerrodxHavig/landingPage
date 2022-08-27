@@ -125,6 +125,7 @@ h1, h2 {
     padding: 4px;
 }
 
+/* quote container */
 .quote {
     display: flex;
 }
@@ -140,5 +141,29 @@ h1, h2 {
 }
 
 .call {
+    margin: 100px;
+    background-color: #3882F6;
+    border-radius: 8px;
     display: flex;
+}
+
+/* style call to action button */
+.callBtn {
+    background-color: #3882F6;
+    border: #E5E7EB solid;
+    border-radius: 10px;
+    color: #E5E7EB;
+    padding: 4px;
+}
+
+/* copyright container */
+.copyright {
+    background-color: #1F2937;
+}
+
+.copy {
+    text-align: center;
+    color: #E5E7EB;
+    height: 100%;
+    padding: 20px;
 }
