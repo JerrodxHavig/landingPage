@@ -6,6 +6,10 @@
 
 body {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background: #a1c3ff;
 }
 
 /* remove bullet points */
@@ -13,12 +17,24 @@ ul {
     list-style-type: none;
 }
 
+img {
+    max-width: 100%;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
 /* style navbar links */
 .navbar a {
-    color: white;
+    color: #E5E7EB;
     text-decoration: none;
     font-size: 18px;
-    font-weight: bold;
+}
+
+/* changes link color on hover, also changes cursor to pointer */
+.navbar a:hover {
+    color: lightblue;
 }
 
 .container {
@@ -28,14 +44,14 @@ ul {
 }
 
 .navbar {
-    background:  #3474e6;
+    background:  #1F2937;
     color: white;
     height: 60px;
 }
 
 .navbar .logo {
-    font-size: x-large;
-    font-weight: bold;
+    font-size: 24px;
+    color: F9FAF8;
 }
 
 .navbar .container {
@@ -50,6 +66,48 @@ ul {
 }
 
 /* add space to the left of each link in navbar */
-.navbar li {
+.navbar ul li {
     margin-left: 20px;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    min-height: 400px;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #F9FAF8;
+}
+
+.header img {
+    max-width: 400px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .container p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.boxes .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 1;
+    background: #0a51cc;
+    color: white;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 15px 20px;
 }
