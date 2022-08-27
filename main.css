@@ -9,7 +9,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #333;
-    background: #a1c3ff;
 }
 
 /* remove bullet points */
@@ -34,7 +33,8 @@ h1, h2 {
 
 /* changes link color on hover, also changes cursor to pointer */
 .navbar a:hover {
-    color: lightblue;
+    color: #F9FA;
+    transition: 0.5s ease-in-out;
 }
 
 .container {
@@ -51,7 +51,7 @@ h1, h2 {
 
 .navbar .logo {
     font-size: 24px;
-    color: F9FAF8;
+    color: #F9FAF8;
 }
 
 .navbar .container {
@@ -105,9 +105,15 @@ h1, h2 {
 
 .box {
     flex: 1;
-    background: #0a51cc;
-    color: white;
-    border-radius: 10px;
+    border: #3882F6 4px solid;
+    border-radius: 20px;
     margin: 20px 10px;
     padding: 15px 20px;
+}
+
+/* button styles */
+.signUp {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 4px;
 }
