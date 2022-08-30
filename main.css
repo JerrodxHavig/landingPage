@@ -86,12 +86,17 @@ h1, h2 {
 
 .header img {
     max-width: 400px;
+    margin-bottom: 40px;
 }
 
 .header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.headerText {
+    padding-right: 80px;
 }
 
 .header .container p {
@@ -145,7 +150,8 @@ h1, h2 {
 
 /* quote container */
 .quote {
-    padding: 40px;
+    margin: 80px;
+    padding: 85px;
 }
 
 .quotes {
