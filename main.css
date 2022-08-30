@@ -38,6 +38,10 @@ h1, h2 {
     transition: 0.5s ease-in-out;
 }
 
+.navbar .logo a:hover {
+    color: #E5E7EB;
+}
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -99,20 +103,29 @@ h1, h2 {
     padding-right: 80px;
 }
 
+.headerText h1 {
+    padding-right: 24px;
+}
+
 .header .container p {
     color: #E5E7EB;
     font-size: 18px;
 }
 
+.boxes {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
 .boxes .container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
 }
 
 .boxes .info {
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
@@ -123,7 +136,7 @@ h1, h2 {
     border: #3882F6 4px solid;
     border-radius: 20px;
     margin: 20px 10px;
-    padding: 15px 20px;
+    padding: 20px 20px;
 }
 
 /* button styles */
@@ -150,7 +163,6 @@ h1, h2 {
 
 /* quote container */
 .quote {
-    margin: 80px;
     padding: 85px;
 }
 
@@ -212,6 +224,8 @@ h1, h2 {
     height: 100%;
     padding: 20px;
 }
+
+/* copyright links */
 .copy a {
     color: #E5E7EB;
 }
@@ -219,4 +233,17 @@ h1, h2 {
 .copy a:hover {
     color: #3882F6;
     transition: 0.5s;
+}
+
+@media(max-width: 768px ) {
+    .header .container {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .boxes .container {
+        display: block;
+        text-align: center;
+    }
 }
