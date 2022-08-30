@@ -34,7 +34,7 @@ h1, h2 {
 
 /* changes link color on hover, also changes cursor to pointer */
 .navbar a:hover {
-    color: #F9FA;
+    color: #3882F6;
     transition: 0.5s ease-in-out;
 }
 
@@ -125,7 +125,22 @@ h1, h2 {
 .signUp {
     background-color: #3882F6;
     color: #E5E7EB;
-    padding: 4px;
+    border: #3882F6 2px solid;
+    border-radius: 10px;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 8px;
+}
+
+.signUp:hover {
+    cursor: pointer;
+    color: #3882F6;
+    background-color: #E5E7EB;
+    border: #E5E7EB 2px solid;
+    transition: 0.5s;
 }
 
 /* quote container */
@@ -164,7 +179,20 @@ h1, h2 {
     border: #E5E7EB 2px solid;
     border-radius: 10px;
     color: #E5E7EB;
-    padding: 4px;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 8px;
+}
+
+.callBtn:hover {
+    cursor: pointer;
+    color: #3882F6;
+    background-color: #E5E7EB;
+    border: #3882F6 2px solid;
+    transition: 0.5s;
 }
 
 /* copyright container */
@@ -177,4 +205,12 @@ h1, h2 {
     color: #E5E7EB;
     height: 100%;
     padding: 20px;
+}
+.copy a {
+    color: #E5E7EB;
+}
+
+.copy a:hover {
+    color: #3882F6;
+    transition: 0.5s;
 }
