@@ -13,4 +13,4 @@ The Odin Project - landing page
 
 - Use of flex box to organize elements on a webpage
 - Using @media to make a webpage responsive
-- Importing a web-font
+- Importing a web font using @import url
