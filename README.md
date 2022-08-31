@@ -10,7 +10,7 @@ The Odin Project - landing page
 - Website will be created with 4 main sections
 
 <p align="center">
-<img src="https://imgur.com/4Ls5K6k.png" height="460px" width="460px" alt="landing page"/> <img src="https://imgur.com/qabassy.png" height="460px" width=460px" alt="colors and fonts"/> 
+<img src="https://imgur.com/4Ls5K6k.png" height="540px" width="540px" alt="landing page"/> 
 </p>
 
 ## 📝 What I learned
